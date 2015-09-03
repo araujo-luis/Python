@@ -29,7 +29,7 @@ else:
 
 #elseif
 
-numero = 3
+numero = 2
 
 if numero==1:
     print("Numero es igual a 1")
