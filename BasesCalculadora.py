@@ -19,7 +19,7 @@ def invertir():
     almacen1= almacen
     almacen= operador
     operador =almacen1
-    #otra forma de acerlo
+    #otra forma de hacerlo
     #almacen, operador = operador, almacen
     mostrar()
 
