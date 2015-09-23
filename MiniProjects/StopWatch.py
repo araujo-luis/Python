@@ -19,14 +19,14 @@ def time_helper(minutos, segundos, centesimas):
     c = ""
     d = ""
 
-    a = str(minutos)
+    a = str(int(minutos))
 
     if segundos <=9:
         b = "0"
-        c = str(segundos)
+        c = str(int(segundos))
     else:
-        b = str(segundos/ 10)
-        c = str(segundos %10)
+        b = str(int(segundos/ 10))
+        c = str(int(segundos %10))
 
     d = str(centesimas)
 
